@@ -25,8 +25,7 @@ Q_MAX    = 300.0 / 3600 # m³/s, design ventilation (300 m³/h)
 G_CO2    = 0.000005     # m³/s, CO₂ generation per person (~0.3 L/min)
 CO2_SET  = 900.0        # ppm, comfort set‑point
 C_INIT   = 1100.0       # ppm, initial indoor CO₂
-LAMBDA_U = 1e‑3         # weight on control effort
-
+LAMBDA_U = 1e-3        # weight on control effort
 DT       = 60           # s, time step
 N_HORIZ  = 30           # 30 steps × 60 s = 30 min
 
