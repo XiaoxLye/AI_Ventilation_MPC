@@ -1,0 +1,18 @@
+name: ai_ventilation_mpc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - xgboost
+      - torch
+      - gekko
+      - casadi
+      - pymoo
+      - python-dotenv

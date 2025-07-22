@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+scikit-learn
+xgboost
+torch
+matplotlib
+gekko
+casadi
+pymoo          # 可选：多目标优化
+python-dotenv  # 环境变量管理
